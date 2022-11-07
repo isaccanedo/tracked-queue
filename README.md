@@ -14,7 +14,7 @@ Uma implementação [autotracked](https://v5.chriskrycho.com/journal/autotrackin
 - _O(N)_ acesso a qualquer intervalo de tamanho _N_ dentro da fila;
 - _O(N+X)_ armazenamento para uma fila de tamanho _N_, com _X_ uma sobrecarga fixa na ordem de algumas dezenas de bytes:
   - armazenamento de apoio de tamanho `N`;
-  - a single capacity value
+  - um único valor de capacidade;
   - two pointers into the storage, with the additional cost of one Glimmer "tag" for each of them
 
 This is handy for cases where you need to be able to push items onto and pop items off of either end of a queue of a fixed size, especially where you want to be able to have fast reads from anywhere in the queue.
