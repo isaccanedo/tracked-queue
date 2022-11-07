@@ -9,7 +9,7 @@
 Uma implementação [autotracked](https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/) de uma fila dupla, implementada como um buffer de anel apoiado por um nativo Matriz JavaScript, com desempenho ideal para todas as operações comuns:
 
 - _O(1)_ empurrar e pop de qualquer extremidade da fila;
-- _O(1)_ read from any element in the queue
+- _O(1)_ ler de qualquer elemento na fila;
 - _O(N)_ iteration of the whole queue
 - _O(N)_ access to any range of size _N_ within the queue
 - _O(N+X)_ storage for a queue of size _N_, with _X_ a fixed overhead on the order of a few tens of bytes:
