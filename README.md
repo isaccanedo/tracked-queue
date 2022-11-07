@@ -19,7 +19,7 @@ Uma implementação [autotracked](https://v5.chriskrycho.com/journal/autotrackin
 
 Isso é útil para casos em que você precisa ser capaz de empurrar e retirar itens de qualquer extremidade de uma fila de tamanho fixo, especialmente onde você deseja ter leituras rápidas de qualquer lugar na fila.
 
-For example, if you have a stream of events coming across a websocket connection, which you want to display to a user, but you only ever want to keep 1,000 of them in memory at any given time, this allows you to simply push onto the back of the queue as new items come in, with no need to manually manage the front of the queue to maintain the queue size.
+Por exemplo, se você tiver um fluxo de eventos vindo de uma conexão websocket, que você deseja exibir para um usuário, mas você deseja manter apenas 1.000 deles na memória a qualquer momento, isso permite que você simplesmente envie para o volta da fila à medida que novos itens chegam, sem a necessidade de gerenciar manualmente a frente da fila para manter o tamanho da fila.
 
 <!-- omit in toc -->
 ## Contents
