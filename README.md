@@ -12,7 +12,7 @@ Uma implementação [autotracked](https://v5.chriskrycho.com/journal/autotrackin
 - _O(1)_ ler de qualquer elemento na fila;
 - _O(N)_ iteração de toda a fila;
 - _O(N)_ acesso a qualquer intervalo de tamanho _N_ dentro da fila;
-- _O(N+X)_ storage for a queue of size _N_, with _X_ a fixed overhead on the order of a few tens of bytes:
+- _O(N+X)_ armazenamento para uma fila de tamanho _N_, com _X_ uma sobrecarga fixa na ordem de algumas dezenas de bytes:
   - backing storage of size `N`
   - a single capacity value
   - two pointers into the storage, with the additional cost of one Glimmer "tag" for each of them
