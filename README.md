@@ -148,8 +148,7 @@ The "dummy app" includes two performance demos, which you can see by running `em
 
   - When the number of items pushed exceeds the queue capacity, causing the queue to “wrap”, `pushBack` and `popBack` insertion times drops to around 100× worse than native, but space usage is bounded: native `push` and `pop` are fast because they allow the buffer to grow in an unbounded fashion. This is the fundamental tradeoff of a ring-buffer: it provides control over space usage in exchange for slightly higher costs for push and pop on the back of the queue
 
-  - The performance of `pushFront` and `popFront` is about 10× worse than native `unshift` and `shift` up to a threshold (which varies per-browser), at which point the performance of the native methods becomes hundreds of times worse and degrades rapidly, to the point where `pushFront` and `popFront` will hang a browser tab when dealing with much more than around 100,000 operations, as the array resizing and moving around items grows in an unbounded fashion. Meanwhile, `pushFront` and `popFront` have consistent performance characteristics no matter how large the queue is.
-
+  - O desempenho do `pushFront` e do `popFront` é cerca de 10 vezes pior do que o `unshift` e o `shift` nativos até um limite (que varia por navegador), ponto em que o desempenho dos métodos nativos se torna centenas de vezes pior e degrada rapidamente, a ponto de `pushFront` e `popFront` travar uma guia do navegador ao lidar com muito mais do que cerca de 100.000 operações, à medida que o redimensionamento do array e a movimentação de itens crescem de forma ilimitada. Enquanto isso, `pushFront` e `popFront` têm características de desempenho consistentes, não importa o tamanho da fila.
 You can see these dynamics clearly by varying the number of operations to perform and the size of the queue.
 
 [perf-api]: http://developer.mozilla.org/en-US/docs/Web/API/Performance
