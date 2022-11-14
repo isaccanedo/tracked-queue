@@ -34,7 +34,7 @@ Por exemplo, se você tiver um fluxo de eventos vindo de uma conexão websocket,
 - [Contributing](#contributing)
 - [License](#license)
 
-## Example
+## Exemplo
 
 Create a queue of a specified capacity, and then push items into it from existing arrays or individual values:
 
