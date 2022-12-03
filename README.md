@@ -36,7 +36,7 @@ Por exemplo, se você tiver um fluxo de eventos vindo de uma conexão websocket,
 
 ## Exemplo
 
-Create a queue of a specified capacity, and then push items into it from existing arrays or individual values:
+Crie uma fila de uma capacidade especificada e, em seguida, envie itens para ela a partir de matrizes existentes ou valores individuais:
 
 ```ts
 // Create a queue with capacity 5, from an existing array of elements:
