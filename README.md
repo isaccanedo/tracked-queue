@@ -22,7 +22,7 @@ Isso é útil para casos em que você precisa ser capaz de empurrar e retirar it
 Por exemplo, se você tiver um fluxo de eventos vindo de uma conexão websocket, que você deseja exibir para um usuário, mas você deseja manter apenas 1.000 deles na memória a qualquer momento, isso permite que você simplesmente envie para o volta da fila à medida que novos itens chegam, sem a necessidade de gerenciar manualmente a frente da fila para manter o tamanho da fila.
 
 <!-- omit in toc -->
-## Contents
+## Conteúdo
 
 - [Example](#example)
 - [Compatibility](#compatibility)
