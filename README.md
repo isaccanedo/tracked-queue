@@ -77,7 +77,7 @@ queue.pushFront('hotel');
 console.log([...queue]); // ["hotel", "charlie", "delta", "echo", "golf"]
 ```
 
-These also return a value which had to be popped to make room for them, if any:
+Estes também retornam um valor que teve que ser removido para abrir espaço para eles, se houver:
 
 ```ts
 let poppedByPush = queue.pushBack('india');
