@@ -142,7 +142,7 @@ O "aplicativo fictício" inclui duas demonstrações de desempenho, que você po
 
 - A render performance demo showing that the queue implementation itself is never the bottleneck for performance; the cost of rendering DOM elements is.
 
-- An ops performance demo, which allows you to see the behavior of pushing and popping to and from the front and back of the queue. (This is a naive measurement using [the `Performance` API][perf-api].) A few things to observe:
+- Uma demonstração de desempenho operacional, que permite ver o comportamento de push e popping para frente e para trás da fila. (This is a naive measurement using [the `Performance` API][perf-api].) A few things to observe:
 
   - When the queue capacity is much larger than the number of items pushed into or popped out of it, the performance of `pushBack` and `popBack` from the back of the queue is comparable to native array push and pop actions, because it _is_ just those operations plus bumping the index for the "back" of the queue
 
