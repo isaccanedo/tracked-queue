@@ -138,7 +138,7 @@ This project uses native `Proxy` (via a dependency), and so is not compatible wi
 
 ## Performance
 
-The "dummy app" includes two performance demos, which you can see by running `ember serve` and navigating to `http://localhost:4200`:
+O "aplicativo fictício" inclui duas demonstrações de desempenho, que você pode ver executando `ember serve` e navegando até `http://localhost:4200`:
 
 - A render performance demo showing that the queue implementation itself is never the bottleneck for performance; the cost of rendering DOM elements is.
 
