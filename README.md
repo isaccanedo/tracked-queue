@@ -83,7 +83,7 @@ Estes também retornam um valor que teve que ser removido para abrir espaço par
 let poppedByPush = queue.pushBack('india');
 console.log([...queue]); // ["charlie", "delta", "echo", "golf", "india"]
 console.log(poppedByPush); // "hotel"
-// make the queue non-empty
+// tornar a fila não vazia
 queue.popFront();
 let nothingPopped = queue.pushFront('juliet');
 console.log([...queue]); // ["juliet", "delta", "echo", "golf", "india"]
