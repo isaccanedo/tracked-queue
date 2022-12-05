@@ -52,7 +52,7 @@ console.log(queue.size); // 4
 console.log([...queue]); // ["alpha", "bravo", "charlie", "delta"]
 ```
 
-If you append more elements to the back of the queue, exceeding its capacity, it will drop the front of the queue, with the `size` of the queue never exceeding its specified capacity, and any items removed to make room are returned. (The same goes for `prepend`, on the front of the queue.)
+Se você adicionar mais elementos no final da fila, excedendo sua capacidade, ele será descartado na frente da fila, com o 'tamanho' da fila nunca excedendo sua capacidade especificada, e quaisquer itens removidos para liberar espaço serão retornados. (O mesmo vale para `prepend`, na frente da fila.)
 
 ```ts
 let pushedOut = queue.append(["echo", "foxtrot");
