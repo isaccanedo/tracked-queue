@@ -90,7 +90,7 @@ console.log([...queue]); // ["juliet", "delta", "echo", "golf", "india"]
 console.log(poppedByPush); // undefined
 ```
 
-## Compatibility
+## Compatibilidade
 
 - Ember.js v3.16 or above
 - Ember CLI v2.13 or above
