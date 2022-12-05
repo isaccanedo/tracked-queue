@@ -98,7 +98,7 @@ console.log(poppedByPush); // undefined
 
 ### TypeScript
 
-This project follows the current draft of [the Semantic Versioning for TypeScript Types][semver] specification.
+Este projeto segue o rascunho atual da especificação [Semantic Versioning for TypeScript Types][semver].
 
 - **Currently supported TypeScript versions:** v4.4, v4.5, and v4.6
 - **Compiler support policy:** [simple majors][sm]
