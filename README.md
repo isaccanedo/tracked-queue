@@ -131,7 +131,7 @@ This project uses native `Proxy` (via a dependency), and so is not compatible wi
   ember install tracked-queue
   ```
 
-## Docs
+## Documentos
 
 - See [docs/API.md](./docs/API.md) for full API documentation.
 - See [docs/under-the-hood.md](./docs/under-the-hood.md) for details on how the queue works.
