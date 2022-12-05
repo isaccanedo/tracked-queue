@@ -61,7 +61,7 @@ console.log([...queue]); // ["bravo", "charlie", "delta", "echo", "foxtrot"]
 console.log(pushedOut); // ["alpha"]
 ```
 
-You can also add and remove items to and from either end of the queue:
+Você também pode adicionar e remover itens de qualquer extremidade da fila:
 
 ```ts
 let poppedFromBack = queue.popBack();
