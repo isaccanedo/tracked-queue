@@ -1,6 +1,6 @@
 # tracked-queue
 
-:warning:**NOTA:** este é o README para a próxima versão v2! Para o README v1, veja [aqui](https://github.com/linkedin/tracked-queue/blob/e934485f04db56b9bd64ebc66eb0f21006d2d6ae/README.md). :warning:
+:aviso:**NOTA:** este é o README para a próxima versão v2! Para o README v1, veja [aqui](https://github.com/linkedin/tracked-queue/blob/e934485f04db56b9bd64ebc66eb0f21006d2d6ae/README.md). :warning:
 
 <!--[![npm(https://img.shields.io/npm/v/tracked-queue.svg])](https://www.npmjs.com/package/tracked-queue)-->
 
