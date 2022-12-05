@@ -144,7 +144,7 @@ O "aplicativo fictício" inclui duas demonstrações de desempenho, que você po
 
 - Uma demonstração de desempenho operacional, que permite ver o comportamento de push e popping para frente e para trás da fila. (Esta é uma medição ingênua usando [a API `Performance`] [perf-api].) Algumas coisas a serem observadas:
 
-  - When the queue capacity is much larger than the number of items pushed into or popped out of it, the performance of `pushBack` and `popBack` from the back of the queue is comparable to native array push and pop actions, because it _is_ just those operations plus bumping the index for the "back" of the queue
+  - Quando a capacidade da fila é muito maior do que o número de itens empurrados para dentro ou para fora dela, o desempenho de `pushBack` e `popBack` da parte de trás da fila é comparável às ações push e pop do array nativo, porque _é_ apenas essas operações mais o aumento do índice para o "back" da fila
 
   - When the number of items pushed exceeds the queue capacity, causing the queue to “wrap”, `pushBack` and `popBack` insertion times drops to around 100× worse than native, but space usage is bounded: native `push` and `pop` are fast because they allow the buffer to grow in an unbounded fashion. This is the fundamental tradeoff of a ring-buffer: it provides control over space usage in exchange for slightly higher costs for push and pop on the back of the queue
 
