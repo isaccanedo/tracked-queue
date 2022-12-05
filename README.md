@@ -39,7 +39,7 @@ Por exemplo, se você tiver um fluxo de eventos vindo de uma conexão websocket,
 Crie uma fila de uma capacidade especificada e, em seguida, envie itens para ela a partir de matrizes existentes ou valores individuais:
 
 ```ts
-// Create a queue with capacity 5, from an existing array of elements:
+//Crie uma fila com capacidade 5, a partir de uma matriz existente de elementos:
 import TrackedQueue from 'tracked-queue';
 let queue = new TrackedQueue<string>({ capacity: 5 });
 
