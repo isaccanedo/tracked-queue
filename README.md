@@ -134,7 +134,7 @@ This project uses native `Proxy` (via a dependency), and so is not compatible wi
 ## Documentos
 
 - Consulte [docs/API.md](./docs/API.md) para obter a documentação completa da API.
-- See [docs/under-the-hood.md](./docs/under-the-hood.md) for details on how the queue works.
+- Consulte [docs/under-the-hood.md](./docs/under-the-hood.md) para obter detalhes sobre como a fila funciona.
 
 ## Performance
 
