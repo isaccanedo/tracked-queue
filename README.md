@@ -153,7 +153,7 @@ You can see these dynamics clearly by varying the number of operations to perfor
 
 [perf-api]: http://developer.mozilla.org/en-US/docs/Web/API/Performance
 
-## Contributing
+## Contribuindo
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
 
