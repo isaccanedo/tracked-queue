@@ -155,7 +155,7 @@ You can see these dynamics clearly by varying the number of operations to perfor
 
 ## Contribuindo
 
-See the [Contributing](CONTRIBUTING.md) guide for details.
+Consulte o guia [Contribuir](CONTRIBUTING.md) para obter detalhes.
 
 ## License
 
