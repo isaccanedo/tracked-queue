@@ -109,7 +109,7 @@ Este projeto segue o rascunho atual da especificação [Semantic Versioning for 
 
 ### Browser support
 
-This project uses native `Proxy` (via a dependency), and so is not compatible with IE11. It supports N-1 for all other browsers.
+Este projeto usa `Proxy` nativo (através de uma dependência) e, portanto, não é compatível com o IE11. Ele suporta N-1 para todos os outros navegadores.
 
 ## Installation
 
