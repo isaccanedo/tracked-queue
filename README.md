@@ -157,6 +157,6 @@ You can see these dynamics clearly by varying the number of operations to perfor
 
 Consulte o guia [Contribuir](CONTRIBUTING.md) para obter detalhes.
 
-## License
+## Licença
 
-This project is licensed under the [BSD 2-Clause License](LICENSE.md).
+Este projeto está licenciado sob a [Licença BSD 2-Clause](LICENSE.md).
