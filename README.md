@@ -113,7 +113,7 @@ Este projeto usa `Proxy` nativo (através de uma dependência) e, portanto, não
 
 ## Instalação
 
-- With npm:
+- Com npm:
 
   ```sh
   npm install tracked-queue
